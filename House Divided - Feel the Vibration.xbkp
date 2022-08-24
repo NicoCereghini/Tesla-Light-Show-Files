@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
+  <head>
+    <version>2021.40</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website></author-website>
+    <song></song>
+    <artist></artist>
+    <album></album>
+    <MusicURL></MusicURL>
+    <comment></comment>
+    <sequenceTiming>20 ms</sequenceTiming>
+    <sequenceType>Media</sequenceType>
+    <mediaFile>C:\Users\pcere\Downloads\Add to DJ Flash Drive\House Divided - Feel the Vibration.mp4</mediaFile>
+    <sequenceDuration>313.608</sequenceDuration>
+    <imageDir></imageDir>
+  </head>
+  <nextid>1</nextid>
+  <Jukebox/>
+  <ColorPalettes>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette2=1</ColorPalette>
+  </ColorPalettes>
+  <EffectDB>
+    <Effect>E_CHECKBOX_Marquee_PixelOffsets=0,E_CHECKBOX_Marquee_Reverse=0,E_CHECKBOX_Marquee_WrapX=0,E_CHECKBOX_Marquee_WrapY=0,E_NOTEBOOK_Marquee=Settings,E_SLIDER_MarqueeXC=0,E_SLIDER_MarqueeYC=0,E_SLIDER_Marquee_Band_Size=3,E_SLIDER_Marquee_ScaleX=100,E_SLIDER_Marquee_ScaleY=100,E_SLIDER_Marquee_Skip_Size=0,E_SLIDER_Marquee_Speed=3,E_SLIDER_Marquee_Stagger=0,E_SLIDER_Marquee_Start=0,E_SLIDER_Marquee_Thickness=1</Effect>
+    <Effect></Effect>
+  </EffectDB>
+  <DataLayers>
+    <DataLayer lor_params="7471199" channel_offset="0" num_channels="0" num_frames="0" data="&lt;rendered: erase-mode&gt;" source="&lt;auto-generated&gt;" name="Nutcracker"/>
+  </DataLayers>
+  <DisplayElements>
+    <Element collapsed="0" type="timing" name="New Timing" visible="1" views="Master View" active="1"/>
+    <Element collapsed="0" type="model" name="Tesla Model S" visible="1"/>
+  </DisplayElements>
+  <ElementEffects>
+    <Element type="timing" name="New Timing">
+      <EffectLayer>
+        <Effect label="" startTime="0" endTime="91560"></Effect>
+        <Effect label="" startTime="91560" endTime="99200"></Effect>
+        <Effect label="" startTime="99200" endTime="106820"></Effect>
+        <Effect label="" startTime="106820" endTime="107300"></Effect>
+        <Effect label="" startTime="107300" endTime="107780"></Effect>
+        <Effect label="" startTime="107780" endTime="108240"></Effect>
+        <Effect label="" startTime="108240" endTime="108720"></Effect>
+        <Effect label="" startTime="108720" endTime="114400"></Effect>
+        <Effect label="" startTime="114400" endTime="122040"></Effect>
+        <Effect label="" startTime="122040" endTime="137260"></Effect>
+        <Effect label="" startTime="137260" endTime="163680"></Effect>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Tesla Model S">
+      <EffectLayer/>
+      <Strand index="0" name="All Lights and Closures">
+        <Effect ref="0" name="Marquee" startTime="91580" endTime="106800" palette="0"/>
+        <Effect ref="1" name="On" id="1" startTime="106820" endTime="107080" palette="0"/>
+        <Effect ref="1" name="Off" id="2" startTime="107080" endTime="107300" palette="0"/>
+        <Effect ref="1" name="On" id="3" startTime="107300" endTime="107560" palette="0"/>
+        <Effect ref="1" name="Off" id="4" startTime="107560" endTime="107780" palette="0"/>
+        <Effect ref="1" name="On" id="5" startTime="107780" endTime="108040" palette="0"/>
+        <Effect ref="1" name="Off" id="6" startTime="108040" endTime="108260" palette="0"/>
+        <Effect ref="1" name="On" id="7" startTime="108260" endTime="108520" palette="0"/>
+        <Effect ref="1" name="Off" id="8" startTime="108520" endTime="108720" palette="0"/>
+        <Node index="4" name="Left Signature">
+          <Effect ref="1" name="On" startTime="106820" endTime="107100" palette="0"/>
+          <Effect ref="1" name="Off" id="1" startTime="107100" endTime="107300" palette="0"/>
+        </Node>
+      </Strand>
+    </Element>
+  </ElementEffects>
+  <lastView>0</lastView>
+  <TimingTags>
+    <Tag number="0" position="-1"/>
+    <Tag number="1" position="-1"/>
+    <Tag number="2" position="-1"/>
+    <Tag number="3" position="-1"/>
+    <Tag number="4" position="-1"/>
+    <Tag number="5" position="-1"/>
+    <Tag number="6" position="-1"/>
+    <Tag number="7" position="-1"/>
+    <Tag number="8" position="-1"/>
+    <Tag number="9" position="-1"/>
+  </TimingTags>
+</xsequence>
